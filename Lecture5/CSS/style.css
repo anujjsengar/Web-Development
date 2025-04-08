@@ -1,0 +1,11 @@
+/* Three Way To Define CSS */
+/* 1.Inline */
+/* 2.Internal */
+/* 3.External */
+ 
+.class{
+    color:brown;
+    background-color: blueviolet;
+    text-decoration: double green;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+----------------> JavaScript <----------------
+
+----->//0 based Indexing
+
+
+-----> Reason for creating seperate file for JavaScript
+        ----->Separation of cocern/code
+        -----> one file pileup
+
+------>//In let Cannot intialize twice or reintialize
+---->Number
+    Limit of Number:Min:Number.MAX_SAFE_INTEGER(9007199254740991)
+                    Max:Number.MIN_SAFE_INTEGER(-9007199254740991)
+
+Weekly typed datatype:Javascipt we donot need to define the type of varaible so we can change datatype after intialize
+--->//We only know the type of datatype only at run time--->Dynamically typed
+
+
+
+JavaScript---->Interpreted--->weakly typed---->Dynamically typed ----->         --->PL
+
+
+
+-------------------->String<--------------
+--->String Method
+1.--->substr
+2.--->substring
+3.--->indexOf
+4.---->replace
+5.---->replaceAll
+6.---->repeat

@@ -1,0 +1,32 @@
+----------------------------->Arrays<---------------------
+ArraY is Ordered Structure
+IN JS , Arrays is Heterogenous(Distnict Data type can also be stored)
+
+arr=[10,20,30,40];
+arr=[1,'Anuj,'Lovely'];
+arr=[1,"Anuj",True,null,undefined]
+
+
+Important :- Everything inside JS is an Object
+
+
+--------------->Types of Array Methods<-------------
+Non Destructive (Orginal Array Not changed due to this method)
+Destructive(Arrays chaged orginally due to method at base)
+
+
+Array Methods:-
+
+1.push():-(append at last)-Destructive return length of array
+2.pop():-(remove last element) -Destructive return opped item
+3.unshift():-(Add array ovject at 0 index) -Destructive return length of array
+4.shift():- (shift from 0 index to 1 index) return popped item or 0 indexed
+
+
+5.slice:-Non Destructive method find subaaray
+
+6.splice:-slice+ pop
+
+7.split ();- Split into array on the baiss of input patterh
+
+8.join() ;-concat array on baiss of symbol nd return string

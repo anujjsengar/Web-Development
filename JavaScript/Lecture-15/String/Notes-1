@@ -1,0 +1,46 @@
+-----------------------------------------------------------Java Script-----------------------------------------------------
+Programming Language and Scripting Language
+
+Compiled Language
+
+
+    HLL  ->  Compilation Stage  -> LLL
+
+
+    Browser :
+    ->Layout Engine(HTML,CSS is displayed because of Layout Engine in Web Browser)
+    ->JS Engine(Interactivity and toperform operation)
+
+
+    Data types:
+    ->Primitives(Number of Primitives-7)(Pre Defined Data type in the language)(Lowest Level-Simple Data)
+    ->-> Number (Integer,Float)
+    ->-> String ('' or "" text in these quotes or double quotes considered as String)
+    ->-> Boolean (can be True / False)
+    ->-> BigInt 
+    ->-> Undefined
+    ->-> Null
+    ->-> Symbol
+
+
+
+
+    Console:
+    ->REPL(Read Evaluate Print Loop)
+
+    Variable:
+    Used to define or give data a addres or location
+    -->let<--(Automatically Datatype we donot need to define value thats why it create 2 bucket automatically use Indirect Addressing Mode thats why called it is Scripting Language)
+    let myname='samarth';
+    Storing as   Memory{myname}--->{samarth} (Indirect Addressing Mode)
+    Rules to Define Variable:
+    ->Cannot start with number
+    ->a-z A-Z
+    ->cannot use space( )
+    ->cannot use keyword
+    ->Special _ and $
+
+
+    ---->Backticks(String templates)-->(`):(below esc n keywword);
+
+

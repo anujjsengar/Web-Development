@@ -1,0 +1,20 @@
+-------------------->Object in JavaScript<--------------------
+Object is instances of a class.
+Data Structure(Non Primitive:- Collection of Property(Pair of keys and values))
+
+DS,Unlike Array(Unordered in Nature);
+{name:Anuj,
+age:22,
+isMake:true
+} 
+{key:value}
+
+
+why object?
+To Create a key value pair. Unordered hota hai. Need to store corresponding values'
+object is also pass by references
+
+
+----->Method VS Function<--------
+We can Store function inside a object is called Method
+so Math is a object and its function is inside it math object called method.
