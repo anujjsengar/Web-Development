@@ -63,7 +63,7 @@ let object = {
 }
 
 for(let item in object){
-    console.log(this.item); //undefined beacue this is only use iside object
+    console.log(this.item); //undefined beacue this is only use inside object
 }
 
 

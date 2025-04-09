@@ -1,0 +1,13 @@
+---------------------->Function<---------------------
+Function is a block of code used to perform a particular task to achieve the work done.
+1.Function Declaration
+2.Function Calling
+3.Parameterised Function
+4.Functional Expression
+5.1st class functions
+6.Anonymous Function
+7.Higher Outer Function
+8.Callback functions
+
+
+function calling -working -returning(auto undefined return)
