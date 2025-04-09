@@ -11,3 +11,38 @@ Function is a block of code used to perform a particular task to achieve the wor
 
 
 function calling -working -returning(auto undefined return)
+
+
+Note In java function canbe stored int an varaible because let defined function not have datatype defined
+
+
+whenever i stored entire funtion inside a varaible it is called -:
+Function Expression
+First class function
+first class citizens
+
+
+
+#How Function run behind the scene
+
+define varaible have 3 way:
+var name;
+let name;
+const name;
+
+
+whenever a JS code is run a global execution contect created
+
+
+GLOBAL EXECUTION CONTEXT ---->Two Phases :- MCP(Memory Creation Phase) and CEP(Code execution Phase)
+MCP--->Memory Created or alloted to(Variable and Function) to execute the code(before running code)
+memory alloted to varaible but assign as undefined during execution value assign 
+
+
+CEP--->Actual Execution of code(Execute a line by line execution)
+Override the undefined or alloted variable to actual variable value;
+
+whenever a function is run then a new Execution Contect Created for particular function like  stack in java;
+
+
+After complete execution done Memory destroy or Execution contex destoy;
