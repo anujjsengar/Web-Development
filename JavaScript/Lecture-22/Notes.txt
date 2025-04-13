@@ -1,0 +1,48 @@
+##------------->let,var,const<-------------------##
+let & const  -> Blocked scope or script scope
+var --> functional scope or global scope;
+
+
+#what is block;
+{
+    This is block;
+}
+
+example: for{
+
+}
+
+fnction(){
+
+}
+
+the things which only access inside the block called blocked Scope
+
+
+
+
+
+###------------------->Higher order function<----------------##
+
+functions that operate on other function either taking it as argument or returning them from itself they are called Higher Order function
+
+1. Taking as an argument
+2. return a function from a function
+
+
+##1; function A(function b){
+
+}
+
+##2; function a(){
+    return function b;
+}
+
+
+
+
+##-------------> Callback Function <-------------##
+A callback function is a function  passed into another function, when is then invoked nside the function;
+
+
+a(b()) a is HOF AND b is Callback function(if we are invoke inside tHE HOD(CALL KRNA MANDATORY HAI))

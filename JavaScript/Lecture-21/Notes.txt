@@ -1,0 +1,34 @@
+#Ways of Declaring a variable
+3 Ways:
+Before ES6 Only way var;
+
+After ES6: (3 ways);
+1.let
+2.const
+3.var(Alreaybefore ES6)
+
+
+reassign or redeclare:------->
+
+let sam=10;
+let sam=100;  //redeclare
+
+
+let sam=10;
+sam=100 //reassign
+
+
+
+const: Declare and Assignment together   Reassign -Np  Redeclare -No
+let  : Declare or Assignment cannot need together -YES Reassign -no redeclare
+var  : Declare or Assignment cannot need together -YES Reassign -Yes redeclare
+
+
+Scopes(Variable):
+1. const and let -> block Scope or Global scope(not sure);
+2.var --> Functional Scope;
+
+
+What is Hoisting:--->
+Using a variable/function before it declaration then this is called Hoisting
+When you access a variable/function even before its declaration that concept  is called hosting;
