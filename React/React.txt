@@ -1,0 +1,32 @@
+-------------------------> REACT <-------------------
+Required: JS, ES6(Classes,Arrow Fn,import export,let var const,destructing);
+
+React --> Library(On basis of JS)  --> Facebook  (Easy the work)
+Its is Library work as framework thats why it is Light-weighted
+
+
+Why React ? 
+`````Single Page Application(Reloading Nahi hogi)
+`````Component Based Architecture (Tukedo m code krna:- Divide the application into small part and integrate it)
+`````Faster(Light Weight)  It is Faster because it doent reload just reflect change
+`````Reusablity(Component can be used further without again write it)
+`````Virtual DOM(Important);
+
+DOM:Document.getElemenetByID;
+    Create Element 
+    inner HTML
+    Append
+Render all component again and create all compoennt 
+Why not DOM:-
+`````````It is very heavy operationally(Time complexity,More network call) solved by Virtual DOM
+`````````On change in a component Render all component again and create all component and scratch it overcome by Virtual DOM
+
+Virtual DOM:-
+It compares to previous DOM and new DOM need to create and render only new created or changing component only;
+only change recreate krta hai...
+
+Disadvantages of REACT:-->
+``````Bed SEO 
+``````Frontend Library
+``````NO SSR(some special ways only SSR)
+``````No own router
