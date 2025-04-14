@@ -102,3 +102,23 @@ func1(func2); //print all function b; //a b
 // at app2.js:99:1
 // func1	@	app2.js:90
 // (anonymous)	@	app2.js:99
+
+
+function booleanGet(item){
+    return typeof(item)==='boolean'
+}
+function stringGet(item){
+    return typeof(item)==='string'
+}
+function numberGet(item){
+    return tyoeof(item)==='number'
+}
+
+function check(item,fn){
+    return fn(item); //mandatory to call to make is callback function
+}
+
+console.log(check(true,booleanGet));
+console.log(check(19,stringGet));
+console.log(check(19,numberGet)); //numberGet is a callback function and check is HOD
+check(true,getNumber); //Donot print nothing to save this result 
