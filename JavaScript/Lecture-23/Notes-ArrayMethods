@@ -1,0 +1,14 @@
+----------------->Some more methods<---------------
+1. forEach(fn)  ---> Method (work as loop);Apply a function to all element of array
+``````it accept a callback function; cannot able to return
+
+
+2.Map ----->
+`````It accept callback function but also return a new array:
+
+
+
+/3. Filter ()Work as Marks but just check condition: It also accept callback fuction and return a new array
+//``````it accept callback
+//``````it return  a new array
+//``````it only send the truthful value to new array
