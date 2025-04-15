@@ -1,7 +1,6 @@
 import React from 'react'
 // import Person from '../components/Person'; //must be jsx file //can be call by anyname is app.jsx 
-import {Person} from '../components/Person';
-import {Papa} from '../components/Person';
+import {Person,Papa} from '../components/Person';
 function App(){
   return (
     // <Person></Person>
@@ -12,7 +11,7 @@ function App(){
     <Person/> 
     </div>
     <div>
-    <papa/>
+    <Papa/>
     </div>
     </>
   )

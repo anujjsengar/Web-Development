@@ -29,7 +29,7 @@ Disadvantages of REACT:-->
 ``````Bad SEO 
 ``````Frontend Library Only(No Backend)
 ``````NO SSR(some special ways only SSR)
-``````No own router
+``````No own router-->Shift to NEXT.JS
 
 ---->Bad SEO-:
 CSR(Client Side Rendering)                  |            SSR(Server Side Rendering)

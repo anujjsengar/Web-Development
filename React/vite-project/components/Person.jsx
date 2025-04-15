@@ -16,6 +16,6 @@ function Papa(){
     )
 }
 
-// export default Person; //Default export should always be one and can be call by anyname is app.jsx
+// export default Person; //Default export should always be one and can be call by anyname in app.jsx
 
 export {Person,Papa}; 
