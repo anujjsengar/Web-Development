@@ -1,0 +1,41 @@
+------------->Class Syntax<------------------
+#Constructor Function is alternative to create objects
+
+We use class is a syntactical sugar of constructor Function
+constructor function ko achi trah use krne k liye class use krte hai
+
+
+//----------------> this <--------------
+
+
+
+
+5 type:
+1.regular function invocation
+        function fun(){
+
+        }
+        fun();
+
+2.Method invocation
+let obj={
+    function fun(){
+
+    };
+}
+
+obj.fun()
+
+3.Constructor invocation
+function fun(){
+
+}
+
+let funny=new gun();
+
+
+4.Indirect calling
+.call()
+.map();
+
+5.Arrow Function

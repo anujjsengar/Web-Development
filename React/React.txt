@@ -26,7 +26,48 @@ It compares to previous DOM and new DOM need to create and render only new creat
 only change recreate krta hai...
 
 Disadvantages of REACT:-->
-``````Bed SEO 
-``````Frontend Library
+``````Bad SEO 
+``````Frontend Library Only(No Backend)
 ``````NO SSR(some special ways only SSR)
 ``````No own router
+
+---->Bad SEO-:
+CSR(Client Side Rendering)                  |            SSR(Server Side Rendering)
+No Reloading(Single Page Application)        |
+Page Content change                            |
+Brower(Webcrawler)                                 |
+Naya content read nhi kr paata webcrwaler               |
+
+
+
+CDN :- Content Delivery Netwrok (Kisi or k code jo ek cloud pr upload hai usko direct use kr skte hn apne code m)
+
+React 18(Last Version)
+
+
+Difference Between React and ReactDOM
+React-Create Component
+ReactDOM- Show component(Web)
+React Native - show component(App)
+
+
+Babel is compiler used to compiler to convert jsx to pure js
+
+Bundlers:---->
+```````Webpacks/Parcel/Vite(Budlers All jsx convert JS AND THIS ALL JS INTO SINGLE JS)
+
+ALL JSX--->ALL JS-->SINGLE JS(Done By Bundlers-->(Webpacks,Parcel,Vite))
+we work on src folder and dist folder go on production
+
+components  ---->App.jsx ----> main.jsx ---->index.html
+
+rfce(React Functional Export Component)
+
+
+Types of compoennt:-
+//Class Based--->Dynamic component  -->Dynamic changes
+//Function Based---->Static component --->Static changes
+
+//hooks----->predefined Function(UsinG with Function BASED for dynamic changes)
+
+//import export

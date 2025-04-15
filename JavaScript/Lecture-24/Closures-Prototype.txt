@@ -1,0 +1,70 @@
+-----------------> Closures <---------------------
+function bundled along with the reference to its lexical enviroment or surrounding state.
+when you return a function it not only return but also return with its surrounding enivorment by binding together with function
+
+
+
+-----------------> Prototype <---------------------
+//If you try to access tha property of an object hen JS will firstly find it inside that object, then if not found,it will go to its Prototype to search.
+//What is Prototype-->It is also an object which is used as fallback source of properties.
+///How to check prototype of any method.
+#  .__proto__ Method used to check the prototype of any fallback method
+Use Case:-  console.log(todo.toString().__proto__); //  String {'', anchor: ƒ, at: ƒ, big: ƒ, blink: ƒ, …}
+//String is parents class
+
+todo.__proto__
+{__defineGetter__: ƒ, __defineSetter__: ƒ, hasOwnProperty: ƒ, __lookupGetter__: ƒ, __lookupSetter__: ƒ, …}
+
+todo.__proto__===Object.prototype
+true
+
+// Object.prototype.__proto__
+// null  Last one This is called prototype chain
+
+
+arr=['anuj','lovely'];
+(2) ['anuj', 'lovely']0: "anuj"1: "lovely"length: 2[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+arr
+
+arr.__proto__
+[at: ƒ, concat: ƒ, copyWithin: ƒ, fill: ƒ, find: ƒ, …]
+
+
+arr.__ptoto__===Array.prototype.__prto__===Object.prototype
+Basically all things are Object in JS;
+
+
+Table to represent prototype chain:
+
+
+
+Null
+  |
+  |
+Object.prototype --->Self Define Object;
+  |                 
+  |
+Array.protoype    String.protoype    Boolean.prototype
+  |                 |                    |
+  |                 |                    |
+  |                 |                    |
+Array             String             Boolean
+
+This is also Inheritence Beta
+
+str.__ptoto__===String.prototype.__prto__===Object.prototype
+Basically all things are Object in JS;
+
+
+
+
+Change the functionality or predefined method temprorily
+
+str="Anuj"
+'Anuj'
+str.length
+4
+
+str.length=function(){
+    return this.i+2;
+}
