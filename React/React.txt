@@ -36,7 +36,7 @@ CSR(Client Side Rendering)                  |            SSR(Server Side Renderi
 No Reloading(Single Page Application)        |
 Page Content change                            |
 Brower(Webcrawler)                                 |
-Naya content read nhi kr paata webcrwaler               |
+Naya content read nhi kr paata webcrawler               |
 
 
 
@@ -48,7 +48,7 @@ React 18(Last Version)
 Difference Between React and ReactDOM
 React-Create Component
 ReactDOM- Show component(Web)
-React Native - show component(App)
+ReactNative - show component(App)
 
 
 Babel is compiler used to compiler to convert jsx to pure js
